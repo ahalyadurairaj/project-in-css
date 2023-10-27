@@ -1,0 +1,463 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&display=swap');
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}*/
+.condiner{ 
+    width: 100vw;
+    height: 100vh;
+}
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+.logo img {
+    width: 262px;
+    margin-left: 125px;
+}
+.dropdownlist {
+    display: flex;
+    margin-right: -295px;
+}
+.dropdownlist p {
+    display: inline;
+    margin-right: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdownlist p:hover{
+    color: orange;
+}
+.dropdown{
+    position:relative;
+}
+.drop-content{
+    display: none;
+    position: absolute; 
+    text-align: left;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 250px;
+    border-radius: 10px; 
+    border-radius: 2px;
+     margin-top:10px;
+    border-top: 2px solid brown;
+
+}
+.drop-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    padding: 10px 20px;
+}
+.drop-content a:hover{
+background-color: ghostwhite;
+}
+.dropdown p:hover{
+    color: orange;
+}
+.drop-content a:hover{
+    color:brown;
+}
+.dropdown:hover.drop-content{
+    display: block;
+} 
+.dropdown1{
+position: relative;
+}
+.drop-content1{
+position: absolute;
+display:none;
+text-align: center;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 250px;
+border-radius: 2px;
+margin-top:20px;
+border-top: 2px solid brown;
+}
+.drop-content1 a{
+    display:block ;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    text-align: left;   
+}
+.drop-content1 a:hover{
+background:ghostwhite;
+}
+.dropdown1 p:hover{
+    color: orange;
+}
+.drop-content1 a:hover{
+    color:brown;
+}
+.dropdown:hover .drop-content{
+    display: block;
+} 
+.dropdown1:hover .drop-content1{
+    display: block;
+}
+.dropdown2{
+position: relative;
+}
+.drop-content2{
+position: absolute;
+display: none;
+text-align: center;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 180px;
+margin-top:20px;
+border-top: 2px solid brown;
+}
+.drop-content2 a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    text-align: left;
+}
+.drop-content2 a:hover{
+background:ghostwhite;
+}
+.dropdown2 p:hover{
+    color: orange;
+}
+.drop-content2 a:hover{
+    color:brown;
+}
+.dropdown2:hover .drop-content2{
+    display:block;
+}
+.dropdown3{
+    position: relative;
+}
+.drop-content3{
+    position: absolute;
+    display: none;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top:20px;
+    border-top: 2px solid brown;
+}
+.drop-content3 a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    text-align: left;
+}
+.drop-content3 a:hover{
+background-color: ghostwhite; 
+}
+.dropdown3 p:hover{
+    color: orange;
+}
+.drop-content3 a:hover{
+    color:brown;
+}
+.dropdown3:hover .drop-content3{
+display: block;
+}
+span {
+    background-color: #102b3f;
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
+span a {
+    color: white;
+    margin-left: 32px;
+    font-weight: 600;
+}
+.header{
+    width: 100%;
+    display: flex;  
+}
+.dropdownlist p:hover{
+    cursor: pointer;  
+}
+.text{
+  max-width: 50%;  
+}
+.dckap{
+max-width: 50%;
+}
+.dckap img{
+width: 100%;
+}
+.text {
+    margin-top: 83px;
+    padding: 46px;
+    margin-left: 40px;
+}
+.text p {
+    width: 95%;
+    line-height: 27px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+.text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 39px;
+    color:#00001a;
+    font-weight: bold;
+}
+.text button {
+    width: 200px;
+    border: none;
+    background-color: brown;
+    height: 40px;
+    margin-top: 35px;
+    border-radius: 21px;
+    color: white;
+    font-weight: bolder;
+}
+hr {
+    margin-top: 20px;
+    width: 71px;
+    height: 3px;
+    background-color: skyblue;
+}
+#nov-button button {
+    width: 145px;
+    font-weight: bold;
+    height: 40px;
+    background-color:brown;
+    border-radius: 38px;
+    border: none;
+    color: white;
+    margin: 115px;
+}
+#nov-button button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+} 
+
+
+/* --------------------------------------------------------------------------------------- */
+
+
+.containera h1{
+    text-align: center;
+    font-size: 191%;
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+}
+hr{
+    width: 5%;
+    align-items: center;
+    color: #0000ff47;
+}
+
+body{
+    background-color: rgba(225, 232, 225, 0.41);
+  
+} 
+.container{ 
+    max-width:1547px; 
+     width: 100vw; 
+     height: 100vh;  
+     font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+}
+.box {
+        width: 93%;
+        height: 40%;
+        display: flex;
+        gap: 2%;
+        padding: 4%;
+        margin: 2%;
+        
+}
+.jum{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+
+    width: 1031px;
+    padding: 1%;
+    margin: 2% auto;
+}
+#erp{
+    width: 20%;
+    height: 90%;
+    border-radius: 5%;
+    background-color: white;  
+    padding: 18px;
+    text-align: center;
+    font-size: 14px;
+}
+#er{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+     font-weight:bolder; 
+     font-size: 16px; 
+}  
+
+#pic1 h1 p{
+    width: 400px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: start;
+}
+
+
+#pic2 p{
+    font-size: 16px;
+    width: 41%;
+    font-weight: lighter;
+    margin-top: 34px;
+    
+}
+#pic2 img{
+    margin-left: 50%;
+    margin-top: -8%;
+    position: relative;
+    top: -172px;
+    bottom: 30px;
+    width: 43%;
+    height: 66%;
+} 
+#pic2 h1 a{
+    color: rgb(190, 41, 41);
+    font-size:16px; 
+}
+ #pic3 img{
+        padding: 0%;
+        width: 64%;
+        height: 20%;
+        margin-top: -18%;
+        margin-left: 11%; 
+ }
+.we h1{
+   text-align: center;  
+    
+}
+
+
+#pic3{
+    display: flex;
+    margin-top: -24%;
+}
+#pic3 img{
+    margin-top: 20px;
+}
+#pic3 p{
+    font-size: 16px;
+    font-weight: lighter;
+    width: 81%;
+    margin-left: 2%;
+    text-align: start;
+  }
+#pic3 h1{
+    
+    font-size :25px;
+    width: 79%;
+    margin-left: 12%;
+    text-align: start;
+    margin-top: 52px;
+  }
+#pic3 a{
+    color: rgb(190, 41, 41);
+    font-size: 16px;  
+    font-weight: bolder;
+} 
+#pic4{
+    display: flex;
+}
+#pic4 h1{
+    text-align: left;
+    width: 30%;
+    font-size:25px;
+    
+} 
+#pic4 p{
+    font-weight: lighter;
+    font-size: 16px;
+
+}#pic4 img{
+    width: 35%;
+}
+#pic4 h1 a{
+    color: rgb(190, 41, 41);
+    font-size: 16px;  
+    font-weight: bolder;
+
+}    
+
+/* ----------------------------------------------------- */
+
+  body{
+    background-image: "pic5.jpg";
+}
+.container3{
+    background-color: rgba(225, 232, 225, 0.41);
+    display: flex;
+    padding: 6%;
+    
+    
+
+}
+
+.pic5 img{
+    width: 86%;
+    height: 57%;
+    border-radius: 2%;
+    
+}
+.pic5 p{
+    width: 62%;
+    
+}
+
+.pic6 img{
+    
+        width: 68%;
+        height: 48%;
+        border-radius: 9% 9% 3% 3%;
+        padding-top: 33px;
+        margin-left: -2%;
+}
+
+.pic6 p {
+    width: 51%;
+}
+.pic6 h1{
+    text-align: left;
+    margin:0;
+}
+.pic6 a{
+    color: rgb(190, 41, 41);
+    font-size: 20px;  
+    
+}
+
+
+
+a span:hover{
+   
+}  
+
